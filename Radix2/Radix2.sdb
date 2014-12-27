@@ -1,0 +1,391 @@
+[p GLOBOPT AUTOSTATIC LFSROK SPACEOPT ]
+[d version 1.1 ]
+[d edition pro ]
+[d chip 18F4620 ]
+"532 C:\Program Files\HI-TECH Software\PICC-18\PRO\9.63\lib\doprnt.c
+[s S84 . 5 `*.MDCuc 1 _cp 3 0 `ui 1 _len 2 3 ]
+[u S87 . 5 `ui 1 _val 2 0 `S84 1 _str 5 0 ]
+[s S413 flt 3 `[1]uc 1 mant 1 0 `uc 1 hmant 1 1 :7:0 
+`uc 1 lexp 1 1 :1:7 
+`uc 1 hexp 1 2 :7:0 
+`uc 1 sign 1 2 :1:7 
+]
+[u S419 both 3 `S413 1 flt 3 0 `d 1 fl 3 0 ]
+"15 C:\Documents and Settings\Administrator\Belgelerim\H-tech\FFT\Radix2\radix2_fft.c
+[v _Radix2Fft `(v  1 e 0 0 ]
+"30 C:\Documents and Settings\Administrator\Belgelerim\H-tech\FFT\Radix2\radix2_fft_main.c
+[v _main `(v  1 e 0 0 ]
+"7 C:\Documents and Settings\Administrator\Belgelerim\H-tech\FFT\Radix2\universal_usart.c
+[v _putch `(v  1 e 0 0 ]
+"465 C:\Program Files\HI-TECH Software\PICC-18\PRO\9.63\lib\doprnt.c
+[v _printf `(i  1 e 2 0 ]
+"5 C:\Program Files\HI-TECH Software\PICC-18\PRO\9.63\sources\abs.c
+[v _abs `(i  1 e 2 0 ]
+"16 C:\Program Files\HI-TECH Software\PICC-18\PRO\9.63\sources\altoft.c
+[v ___altoft `(f  1 e 3 0 ]
+"5 C:\Program Files\HI-TECH Software\PICC-18\PRO\9.63\sources\asftmul.c
+[v ___asftmul `(f  1 e 3 0 ]
+"5 C:\Program Files\HI-TECH Software\PICC-18\PRO\9.63\sources\asftsub.c
+[v ___asftsub `(f  1 e 3 0 ]
+"5 C:\Program Files\HI-TECH Software\PICC-18\PRO\9.63\sources\awdiv.c
+[v ___awdiv `(i  1 e 2 0 ]
+"16 C:\Program Files\HI-TECH Software\PICC-18\PRO\9.63\sources\awtoft.c
+[v ___awtoft `(f  1 e 3 0 ]
+"5 C:\Program Files\HI-TECH Software\PICC-18\PRO\9.63\sources\evalpoly.c
+[v _eval_poly `(d  1 e 3 0 ]
+"13 C:\Program Files\HI-TECH Software\PICC-18\PRO\9.63\sources\float.c
+[v ___ftunpack `(uc  1 e 1 0 ]
+"33
+[v ___ftpack `(v  1 e 0 0 ]
+"14 C:\Program Files\HI-TECH Software\PICC-18\PRO\9.63\sources\floor.c
+[v _floor `(d  1 e 3 0 ]
+"255 C:\Program Files\HI-TECH Software\PICC-18\PRO\9.63\sources\frexp.c
+[v _frexp `(d  1 e 3 0 ]
+"17 C:\Program Files\HI-TECH Software\PICC-18\PRO\9.63\sources\ftadd.c
+[v ___ftadd `(f  1 e 3 0 ]
+"19 C:\Program Files\HI-TECH Software\PICC-18\PRO\9.63\sources\ftdiv.c
+[v ___ftdiv `(f  1 e 3 0 ]
+"5 C:\Program Files\HI-TECH Software\PICC-18\PRO\9.63\sources\ftge.c
+[v ___ftge `(b  1 e 0 0 ]
+"18 C:\Program Files\HI-TECH Software\PICC-18\PRO\9.63\sources\ftmul.c
+[v ___ftmul `(f  1 e 3 0 ]
+"16 C:\Program Files\HI-TECH Software\PICC-18\PRO\9.63\sources\ftneg.c
+[v ___ftneg `(f  1 e 3 0 ]
+"17 C:\Program Files\HI-TECH Software\PICC-18\PRO\9.63\sources\ftsub.c
+[v ___ftsub `(f  1 e 3 0 ]
+"16 C:\Program Files\HI-TECH Software\PICC-18\PRO\9.63\sources\fttol.c
+[v ___fttol `(l  1 e 4 0 ]
+"3 C:\Program Files\HI-TECH Software\PICC-18\PRO\9.63\sources\lmul.c
+[v ___lmul `(ul  1 e 4 0 ]
+"5 C:\Program Files\HI-TECH Software\PICC-18\PRO\9.63\sources\lwdiv.c
+[v ___lwdiv `(ui  1 e 2 0 ]
+"5 C:\Program Files\HI-TECH Software\PICC-18\PRO\9.63\sources\lwmod.c
+[v ___lwmod `(ui  1 e 2 0 ]
+"14 C:\Program Files\HI-TECH Software\PICC-18\PRO\9.63\sources\sin.c
+[v _sin `(d  1 e 3 0 ]
+"3 C:\Program Files\HI-TECH Software\PICC-18\PRO\9.63\sources\wmul.c
+[v ___wmul `(ui  1 e 2 0 ]
+"22 /hitech/products/compilers/pic18/pro/9.63PL1/dist/linux/include/errno.h
+[v _errno `i  1 e 2 @0 ]
+"5 C:\Documents and Settings\Administrator\Belgelerim\H-tech\FFT\Radix2\radix2_fft.c
+[v _Real `[64]i  1 e 128 @3840 ]
+[v _Imag `[64]i  1 e 128 @256 ]
+"6
+[v _Amp `[64]i  1 e 128 @22 ]
+"8
+[v _Index `i  1 e 2 @16 ]
+[v _i `i  1 e 2 @2 ]
+[v _n2 `i  1 e 2 @10 ]
+[v _k `i  1 e 2 @14 ]
+[v _j `i  1 e 2 @12 ]
+[v _n1 `i  1 e 2 @8 ]
+"9
+[v _TempImag `i  1 e 2 @4 ]
+[v _TempReal `i  1 e 2 @6 ]
+"10
+[v _TwiddleImag `l  1 e 4 @18 ]
+[v _TwiddleReal `l  1 e 4 @158 ]
+"12
+[v _k3 `l  1 e 4 @154 ]
+[v _k2 `l  1 e 4 @150 ]
+[v _k1 `l  1 e 4 @162 ]
+"12 C:\Documents and Settings\Administrator\Belgelerim\H-tech\FFT\Radix2\twiddle_factor.h
+[v _CosTable `DC[64]i  1 e 128 0 ]
+"18
+[v _SinTable `DC[64]i  1 e 128 0 ]
+"115 C:\Program Files\HI-TECH Software\PICC-18\PRO\9.63\include\pic18f4620.h
+[v _SPBRG `Nuc  1 e 1 @4015 ]
+"116
+[v _RCREG `VNuc  1 e 1 @4014 ]
+"117
+[v _TXREG `VNuc  1 e 1 @4013 ]
+"118
+[v _TXSTA `VNuc  1 e 1 @4012 ]
+"119
+[v _RCSTA `VNuc  1 e 1 @4011 ]
+"479
+[v _TXIF `VNb  1 e 0 @31988 ]
+"480
+[v _RCIF `VNb  1 e 0 @31989 ]
+"518
+[v _TRISD0 `VNb  1 e 0 @31912 ]
+"535
+[v _TRISC6 `VNb  1 e 0 @31910 ]
+"536
+[v _TRISC7 `VNb  1 e 0 @31911 ]
+"616
+[v _RD0 `VNb  1 e 0 @31768 ]
+"354 C:\Program Files\HI-TECH Software\PICC-18\PRO\9.63\lib\doprnt.c
+[v _dpowers `DC[5]ui  1 s 10 _dpowers ]
+"15 C:\Program Files\HI-TECH Software\PICC-18\PRO\9.63\sources\sin.c
+[v F62 `DC[5]d  1 s 15 coeff_a ]
+"23
+[v F63 `DC[4]d  1 s 12 coeff_b ]
+"43
+"53
+"30 C:\Documents and Settings\Administrator\Belgelerim\H-tech\FFT\Radix2\radix2_fft_main.c
+[v _main `(v  1 e 0 0 ]
+{
+"36
+[v _i `i  1 a 2 0 ]
+"49
+[v _i `i  1 a 2 2 ]
+"59
+} 4
+"465 C:\Program Files\HI-TECH Software\PICC-18\PRO\9.63\lib\doprnt.c
+[v _printf `(i  1 e 2 0 ]
+{
+"507
+[v _flag `uc  1 a 1 1 ]
+"505
+[v _prec `c  1 a 1 0 ]
+"498
+[v _c `c  1 a 1 2 ]
+"466
+[v _ap `[1]*.Mv  1 a 2 3 ]
+"532
+[v __val `S87  1 a 5 5 ]
+"465
+[v _f `*.dDCuc  1 p 2 0 ]
+"1532
+} 10
+"14 C:\Program Files\HI-TECH Software\PICC-18\PRO\9.63\sources\sin.c
+[v _sin `(d  1 e 3 0 ]
+{
+"31
+[v _sgn `uc  1 a 1 9 ]
+"30
+[v _y `d  1 a 3 10 ]
+[v _x2 `d  1 a 3 13 ]
+"14
+[v _f `d  1 p 3 0 ]
+"57
+} 16
+"15 C:\Documents and Settings\Administrator\Belgelerim\H-tech\FFT\Radix2\radix2_fft.c
+[v _Radix2Fft `(v  1 e 0 0 ]
+{
+"73
+} 0
+"5 C:\Program Files\HI-TECH Software\PICC-18\PRO\9.63\sources\abs.c
+[v _abs `(i  1 e 2 0 ]
+{
+[v _a `i  1 p 2 0 ]
+"9
+} 0
+"16 C:\Program Files\HI-TECH Software\PICC-18\PRO\9.63\sources\awtoft.c
+[v ___awtoft `(f  1 e 3 0 ]
+{
+"17
+[v _f1 `f  1 a 3 0 ]
+"16
+[v _c `i  1 p 2 0 ]
+"28
+} 3
+"5 C:\Program Files\HI-TECH Software\PICC-18\PRO\9.63\sources\awdiv.c
+[v ___awdiv `(i  1 e 2 0 ]
+{
+"7
+[v _counter `uc  1 a 1 1 ]
+[v _sign `uc  1 a 1 0 ]
+"6
+[v _quotient `i  1 a 2 2 ]
+"5
+[v _dividend `i  1 p 2 0 ]
+[v _divisor `i  1 p 2 2 ]
+"37
+} 4
+"19 C:\Program Files\HI-TECH Software\PICC-18\PRO\9.63\sources\ftdiv.c
+[v ___ftdiv `(f  1 e 3 0 ]
+{
+"20
+[v _exp2 `uc  1 a 1 0 ]
+[v _sign1 `uc  1 a 1 1 ]
+[v _sign2 `uc  1 a 1 3 ]
+[v _exp1 `uc  1 a 1 2 ]
+"21
+[v _f3 `f  1 a 3 4 ]
+"19
+[v _f1 `f  1 p 3 0 ]
+[v _f2 `f  1 p 3 3 ]
+"45
+} 7
+"5 C:\Program Files\HI-TECH Software\PICC-18\PRO\9.63\sources\asftsub.c
+[v ___asftsub `(f  1 e 3 0 ]
+{
+[v _f1p `*.bf  1 p 2 0 ]
+[v _f2 `f  1 p 3 2 ]
+"7
+} 0
+"5 C:\Program Files\HI-TECH Software\PICC-18\PRO\9.63\sources\evalpoly.c
+[v _eval_poly `(d  1 e 3 0 ]
+{
+"6
+[v _res `d  1 a 3 0 ]
+"5
+[v _x `d  1 p 3 0 ]
+[v _d `*.dDCd  1 p 2 3 ]
+[v _n `i  1 p 2 5 ]
+"12
+} 3
+"7 C:\Documents and Settings\Administrator\Belgelerim\H-tech\FFT\Radix2\universal_usart.c
+[v _putch `(v  1 e 0 0 ]
+{
+[v _byte `uc  1 p 1 0 ]
+"12
+} 0
+"5 C:\Program Files\HI-TECH Software\PICC-18\PRO\9.63\sources\lwdiv.c
+[v ___lwdiv `(ui  1 e 2 0 ]
+{
+"7
+[v _counter `uc  1 a 1 0 ]
+"6
+[v _quotient `ui  1 a 2 1 ]
+"5
+[v _dividend `ui  1 p 2 0 ]
+[v _divisor `ui  1 p 2 2 ]
+"26
+} 3
+"5 C:\Program Files\HI-TECH Software\PICC-18\PRO\9.63\sources\lwmod.c
+[v ___lwmod `(ui  1 e 2 0 ]
+{
+"6
+[v _counter `uc  1 a 1 0 ]
+"5
+[v _dividend `ui  1 p 2 0 ]
+[v _divisor `ui  1 p 2 2 ]
+"21
+} 1
+"3 C:\Program Files\HI-TECH Software\PICC-18\PRO\9.63\sources\lmul.c
+[v ___lmul `(ul  1 e 4 0 ]
+{
+"4
+[v _product `ul  1 a 4 0 ]
+"3
+[v _multiplier `ul  1 p 4 0 ]
+[v _multiplicand `ul  1 p 4 4 ]
+"13
+} 4
+"14 C:\Program Files\HI-TECH Software\PICC-18\PRO\9.63\sources\floor.c
+[v _floor `(d  1 e 3 0 ]
+{
+"16
+[v _expon `i  1 a 2 0 ]
+"15
+[v _i `d  1 a 3 2 ]
+"14
+[v _x `d  1 p 3 0 ]
+"30
+} 5
+"5 C:\Program Files\HI-TECH Software\PICC-18\PRO\9.63\sources\asftmul.c
+[v ___asftmul `(f  1 e 3 0 ]
+{
+[v _f1p `*.bf  1 p 2 0 ]
+[v _f2 `f  1 p 3 2 ]
+"7
+} 0
+"3 C:\Program Files\HI-TECH Software\PICC-18\PRO\9.63\sources\wmul.c
+[v ___wmul `(ui  1 e 2 0 ]
+{
+"4
+[v _product `ui  1 a 2 0 ]
+"3
+[v _multiplier `ui  1 p 2 0 ]
+[v _multiplicand `ui  1 p 2 2 ]
+"13
+} 2
+"16 C:\Program Files\HI-TECH Software\PICC-18\PRO\9.63\sources\fttol.c
+[v ___fttol `(l  1 e 4 0 ]
+{
+"17
+[v _sign1 `uc  1 a 1 0 ]
+[v _exp1 `uc  1 a 1 1 ]
+"18
+[v _lval `ul  1 a 4 2 ]
+"16
+[v _f1 `f  1 p 3 0 ]
+"40
+} 6
+"255 C:\Program Files\HI-TECH Software\PICC-18\PRO\9.63\sources\frexp.c
+[v _frexp `(d  1 e 3 0 ]
+{
+[v _value `d  1 p 3 0 ]
+[v _eptr `*.bi  1 p 2 3 ]
+"274
+} 0
+"18 C:\Program Files\HI-TECH Software\PICC-18\PRO\9.63\sources\ftmul.c
+[v ___ftmul `(f  1 e 3 0 ]
+{
+"19
+[v _sign1 `uc  1 a 1 0 ]
+[v _exp1 `uc  1 a 1 1 ]
+[v _cntr `uc  1 a 1 2 ]
+"20
+[v _f3 `f  1 a 3 3 ]
+"18
+[v _f1 `f  1 p 3 0 ]
+[v _f2 `f  1 p 3 3 ]
+"46
+} 6
+"17 C:\Program Files\HI-TECH Software\PICC-18\PRO\9.63\sources\ftsub.c
+[v ___ftsub `(f  1 e 3 0 ]
+{
+[v _f1 `f  1 p 3 0 ]
+[v _f2 `f  1 p 3 3 ]
+"20
+} 0
+"5 C:\Program Files\HI-TECH Software\PICC-18\PRO\9.63\sources\ftge.c
+[v ___ftge `(b  1 e 0 0 ]
+{
+[v _ff1 `f  1 p 3 0 ]
+[v _ff2 `f  1 p 3 3 ]
+"13
+} 0
+"16 C:\Program Files\HI-TECH Software\PICC-18\PRO\9.63\sources\altoft.c
+[v ___altoft `(f  1 e 3 0 ]
+{
+"18
+[v _sign `uc  1 a 1 0 ]
+[v _exp `uc  1 a 1 1 ]
+"17
+[v _f1 `f  1 a 3 2 ]
+"16
+[v _c `l  1 p 4 0 ]
+"38
+} 5
+"16 C:\Program Files\HI-TECH Software\PICC-18\PRO\9.63\sources\ftneg.c
+[v ___ftneg `(f  1 e 3 0 ]
+{
+[v _f1 `f  1 p 3 0 ]
+"20
+} 0
+"17 C:\Program Files\HI-TECH Software\PICC-18\PRO\9.63\sources\ftadd.c
+[v ___ftadd `(f  1 e 3 0 ]
+{
+"18
+[v _sign2 `uc  1 a 1 0 ]
+[v _cntr `uc  1 a 1 1 ]
+[v _sign1 `uc  1 a 1 2 ]
+[v _exp2 `uc  1 a 1 3 ]
+[v _exp1 `uc  1 a 1 4 ]
+"17
+[v _f1 `f  1 p 3 0 ]
+[v _f2 `f  1 p 3 3 ]
+"83
+} 5
+"33 C:\Program Files\HI-TECH Software\PICC-18\PRO\9.63\sources\float.c
+[v ___ftpack `(v  1 e 0 0 ]
+{
+[v _arg `*.bum  1 p 2 0 ]
+[v _exp `uc  1 p 1 2 ]
+"55
+} 0
+"13
+[v ___ftunpack `(uc  1 e 1 0 ]
+{
+"14
+[v _sign `uc  1 a 1 0 ]
+"13
+[v _arg `*.bum  1 p 2 0 ]
+[v _exp `*.buc  1 p 2 2 ]
+"27
+} 1
